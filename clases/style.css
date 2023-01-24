@@ -1,0 +1,45 @@
+main {
+    background: bisque;
+}
+
+section {
+    background-image: url("https://live.staticflickr.com/6198/6139405138_c383e32906_b_d.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(90%);
+}
+
+.gorilla {
+    filter: brightness(50%);
+    width: 50%;
+    height: 50%;
+}
+
+p {
+    background-color: rgba(150, 100, 200, 0.60);
+}
+
+#email {
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0 2px 3px black;
+    width: 300px;
+    height: 20px;
+    font-weight: 900;
+}
+
+
+section>h1{
+    font-size: 100px;
+    text-shadow: 15px 15px 25px white;
+}
+
+body h1 {
+    font-family: Mistral;
+}
+
+body {
+    font-family: "Bauhaus 93";
+    background-color: grey; 
+}
