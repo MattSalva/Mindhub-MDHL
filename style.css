@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 10px 50px 50px 50px;
+    background-color: whitesmoke;
+}
+
+.event-date{
+    font-weight: bold;
+}
+
+.event-date li{
+    font-weight: normal;
+    padding-bottom: 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#banner h3{
+    margin-top: 0;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+#banner img {
+
+    object-fit: fill;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.events {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+
+a:active{
+    color: black;
+}
+
+.head {
+    position: absolute;
+}
+
+.head img {
+    border: 1px solid black;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 260px;
+    left: 1200px;
+}
+
+.head h1 {
+    font-size: 50px;
+}
+
+footer{
+    margin-top: 150px;
+
+}
+
+footer img{
+   transition: all 1s ease-in;
+   margin-left: 45%;
+   width: 10%;
+   height: 10%;
+   border: 2px dashed black;
+   border-radius: 100px;
+
+}
+
+footer img:hover {
+  border: 2px green solid;
+  transform: scale(300%);
+
+}
+
+div.about{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: inline-block;
+    width: 50%;
+}
+
+.current a {
+    pointer-events: none;
+    text-decoration: none;
+    color: black;
+}
