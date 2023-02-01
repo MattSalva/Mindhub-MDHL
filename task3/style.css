@@ -1,0 +1,87 @@
+/*Generales para todos los HTML */
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ctr {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+.head {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: 1px solid black;
+    margin: 4rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+}
+
+.head>h1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #ecf0f1;
+    /*Stroke con sombras*/
+    text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px,
+                 #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px,
+                 #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#logo {
+    width: 15rem;
+    margin: 1rem;
+    padding: 0;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #ecf0f1;
+}
+
+.pages {
+    border: 1px solid black;
+    margin: -3.6rem 4rem 4rem 4rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+}
+
+.pages ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+}
+
+.pages ul a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.btn-link {
+    padding: 15px;
+    padding-right: 90px;
+    padding-left: 90px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: rgb(0,0,0,0.7) 0px 0px 4px;
+    transition: background-color 0.5s linear;
+}
+
+.btn-link:hover{
+    background-color: #16a085;
+}
+
+.current {
+    background-color: #3498db;
+}
+
+/* Especificos*/
