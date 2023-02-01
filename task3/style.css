@@ -93,3 +93,27 @@ body {
     background-color: #2ecc71;
     border-radius: 5px;
 }
+
+/*About*/
+.about{
+    border: 1px solid black;
+    margin: -3.6rem 4rem 4rem 4rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+}
+
+/*Contact*/
+.contact{
+    border: 1px solid black;
+    margin: -3.6rem 4rem 4rem 4rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+}
+
+/*Rules*/
+.rules {
+    border: 1px solid black;
+    margin: -3.6rem 4rem 4rem 4rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+}
