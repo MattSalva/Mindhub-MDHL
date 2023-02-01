@@ -7,7 +7,7 @@ body {
 }
 
 .ctr {
-    max-width: 1500px;
+    max-width: 1900px;
     margin: 0px auto;
 }
 
@@ -85,3 +85,11 @@ body {
 }
 
 /* Especificos*/
+
+/*Home*/
+.events-list {
+    border: 1px solid black;
+    margin: -3.6rem 4rem 4rem 4rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+}
