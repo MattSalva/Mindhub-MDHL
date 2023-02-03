@@ -167,10 +167,17 @@ body {
 /*Contact*/
 .contact{
     border: 1px solid black;
-    margin: -2.6rem 3rem 3rem 3rem;
+    margin: -2.6rem 3em 3rem 3rem;
     background-color: #2ecc71;
     border-radius: 5px;
     text-align: center;
+}
+
+.contact img {
+    max-width: 27rem;
+    border: 2px solid black;
+    margin: 0.5rem;
+    border-radius: 5px;
 }
 
 .contact a{
@@ -189,10 +196,20 @@ body {
     margin: 1rem;
 }
 
+.rules-title {
+    text-align: center;
+}
+
+dl dd {
+    padding-left: 2rem;
+}
+
 /*Games*/
 table, th, td {
+    margin:auto;
     border: 1px solid black;
     border-collapse: collapse;
+    background-color: #3498db;
 }
 
 .games {
@@ -200,6 +217,7 @@ table, th, td {
     margin: -2.6rem 3rem 3rem 3rem;
     background-color: #2ecc71;
     border-radius: 5px;
+    text-align: center;
 }
 
 .contacto {
@@ -209,4 +227,8 @@ table, th, td {
 
 .contacto p {
     display: inline;
+}
+
+.sub {
+    list-style: lower-alpha;
 }
