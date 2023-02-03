@@ -7,7 +7,7 @@ body {
 }
 
 .ctr {
-    max-width: 1900px;
+    max-width: 1500px;
     margin: 0px auto;
 }
 
@@ -16,7 +16,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     border: 1px solid black;
-    margin: 4rem;
+    margin: 3rem;
     background-color: #2ecc71;
     border-radius: 5px;
 }
@@ -45,7 +45,7 @@ body {
 
 .pages {
     border: 1px solid black;
-    margin: -3.6rem 4rem 4rem 4rem;
+    margin: -2.6rem 3rem 3rem 3rem;
     background-color: #2ecc71;
     border-radius: 5px;
 }
@@ -67,9 +67,7 @@ body {
 }
 
 .btn-link {
-    padding: 15px;
-    padding-right: 90px;
-    padding-left: 90px;
+    padding: 0.9rem 4rem;
     border-radius: 5px;
     border: 2px solid black;
     box-shadow: rgb(0,0,0,0.7) 0px 0px 4px;
@@ -89,31 +87,126 @@ body {
 /*Home*/
 .events-list {
     border: 1px solid black;
-    margin: -3.6rem 4rem 4rem 4rem;
+    margin: -2.6rem 3rem 3rem 3rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.events-list>figure {
+    margin-right: 0;
+}
+.events {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.events ul{
+
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.events>ul>li {
+    background-color: #3498db;
+    padding: 1rem 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0.3rem;
+    text-align: center;
+    color: #ecf0f1;
+    font-size: large;
+}
+
+.date {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.page-img {
+    max-width: 40rem;
+    border: 2px solid black;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+
+/*About*/
+.about{
+    display: flex;
+
+    border: 1px solid black;
+    margin: -2.6rem 3rem 3rem 3rem;
     background-color: #2ecc71;
     border-radius: 5px;
 }
 
-/*About*/
-.about{
-    border: 1px solid black;
-    margin: -3.6rem 4rem 4rem 4rem;
-    background-color: #2ecc71;
+.about-info {
+    background-color: #3498db;
+    border: 2px solid black;
+}
+
+.about-info h3, p {
+    margin: 1rem;
+}
+.about-info h3 {
+    color: #ecf0f1;
+    text-decoration: #ecf0f1 underline;
+
+}
+
+.about-img img {
+    max-width: 27rem;
+    border: 2px solid black;
+    margin: 2rem;
     border-radius: 5px;
 }
 
 /*Contact*/
 .contact{
     border: 1px solid black;
-    margin: -3.6rem 4rem 4rem 4rem;
+    margin: -2.6rem 3rem 3rem 3rem;
     background-color: #2ecc71;
     border-radius: 5px;
+    text-align: center;
+}
+
+.contact a{
+    text-decoration: none;
 }
 
 /*Rules*/
 .rules {
     border: 1px solid black;
-    margin: -3.6rem 4rem 4rem 4rem;
+    margin: -2.6rem 3rem 3rem 3rem;
     background-color: #2ecc71;
     border-radius: 5px;
+}
+
+.rules * {
+    margin: 1rem;
+}
+
+/*Games*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.games {
+    border: 1px solid black;
+    margin: -2.6rem 3rem 3rem 3rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto p {
+    display: inline;
 }
