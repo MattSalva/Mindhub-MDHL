@@ -7,18 +7,24 @@ body {
 }
 
 .ctr {
-    max-width: 1500px;
-    margin: 0px auto;
+    max-width: 100%;
+    margin: 0;
 }
 
 .head {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
     border: 1px solid black;
-    margin: 3rem;
+    margin: 0rem;
     background-color: #2ecc71;
     border-radius: 5px;
+    background-image: url("/assets/design1_image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .head>h1{
@@ -34,18 +40,19 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+
 #logo {
-    width: 15rem;
+    width: 8rem;
     margin: 1rem;
     padding: 0;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 15px;
     background-color: #ecf0f1;
 }
 
 .pages {
     border: 1px solid black;
-    margin: -2.6rem 3rem 3rem 3rem;
+    margin: 0;
     background-color: #2ecc71;
     border-radius: 5px;
 }
@@ -67,7 +74,7 @@ body {
 }
 
 .btn-link {
-    padding: 0.9rem 4rem;
+    padding: 0.9rem 3rem;
     border-radius: 5px;
     border: 2px solid black;
     box-shadow: rgb(0,0,0,0.7) 0px 0px 4px;
@@ -82,16 +89,53 @@ body {
     background-color: #3498db;
 }
 
+a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:  1024px) {
+    .head {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .head>h1 {
+        font-size: 25px;
+    }
+
+    .pages ul {
+        display: block;
+        text-align: center;
+    }
+
+
+
+}
+
 /* Especificos*/
 
 /*Home*/
 .events-list {
     border: 1px solid black;
-    margin: -2.6rem 3rem 3rem 3rem;
+    margin: 0;
     background-color: #2ecc71;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
+}
+
+.events-title {
+    border: 1px solid black;
+    margin: 0;
+    background-color: #000000;
+    border-radius: 5px;
+    text-align: center;
+    color: #ecf0f1;
 }
 
 .events-list>figure {
@@ -132,13 +176,24 @@ body {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 1024px) {
+    .page-img {
+        max-width: 15rem;
+    }
+
+    .events-list {
+        display: block;
+    }
+}
+
 
 /*About*/
 .about{
     display: flex;
 
     border: 1px solid black;
-    margin: -2.6rem 3rem 3rem 3rem;
+    margin: 0;
+
     background-color: #2ecc71;
     border-radius: 5px;
 }
@@ -164,10 +219,20 @@ body {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 1024px) {
+    .about {
+        display: block;
+    }
+
+    .about-img img {
+        max-width: 15rem;
+    }
+}
+
 /*Contact*/
 .contact{
     border: 1px solid black;
-    margin: -2.6rem 3em 3rem 3rem;
+    margin: 0rem 0rem 0rem 0rem;
     background-color: #2ecc71;
     border-radius: 5px;
     text-align: center;
@@ -184,10 +249,16 @@ body {
     text-decoration: none;
 }
 
+@media screen and (max-width: 1024px) {
+    .contact img{
+        max-width: 15rem;
+    }
+}
+
 /*Rules*/
 .rules {
     border: 1px solid black;
-    margin: -2.6rem 3rem 3rem 3rem;
+    margin: 0rem 0rem 0rem 0rem;
     background-color: #2ecc71;
     border-radius: 5px;
 }
@@ -204,17 +275,31 @@ dl dd {
     padding-left: 2rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .rules *{
+        margin-left: 0.1rem;
+    }
+    .rules-title {
+        margin: auto;
+    }
+}
+
 /*Games*/
+table {
+    width: 95%;
+}
+
 table, th, td {
-    margin:auto;
+    margin: auto;
+
     border: 1px solid black;
     border-collapse: collapse;
     background-color: #3498db;
-}
+    }
 
 .games {
     border: 1px solid black;
-    margin: -2.6rem 3rem 3rem 3rem;
+    margin: 0;
     background-color: #2ecc71;
     border-radius: 5px;
     text-align: center;
@@ -231,4 +316,107 @@ table, th, td {
 
 .sub {
     list-style: lower-alpha;
+}
+
+.games h4 {
+    display: inline-block;
+}
+
+.maps {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.games p {
+    display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .maps iframe {
+        max-width: 20rem;
+    }
+}
+
+/*show data*/
+.info-ctr {
+    border: 1px solid black;
+    margin: 3rem;
+    background-color: #2ecc71;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+/* registration */
+.registration-form {
+    border: 1px solid black;
+    margin: 0;
+    background-color: #2ecc71;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+
+
+.personal {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #16a085;
+    border: 1px solid black;
+    margin: 0;
+    padding: 1rem 1rem;
+}
+
+.gender {
+    margin: 1rem 0rem;
+}
+
+
+.gender>p {
+    margin: 1rem 0rem;
+    font-weight: bold;
+}
+
+.uniform {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 3;
+    align-content: center;
+}
+
+.uniform>h3 {
+    display: block;
+}
+
+.last {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+}
+
+.submit {
+    text-align: center;
+}
+
+dl dd>ul>li {
+    list-style: none;
+}
+
+dt {
+    font-weight: bold;
+}
+@media screen and (max-width: 1024px) {
+
+    .last {
+        display: block;
+    }
+    .uniform{
+        display: block;
+    }
 }
